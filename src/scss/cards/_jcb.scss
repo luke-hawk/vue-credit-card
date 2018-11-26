@@ -1,20 +1,18 @@
 @import "card";
-@import "../logos/maestro";
+@import "../logos/jcb";
 
-$fill-color: #0B2C5F;
+$fill-color: #CB8000;
 
-.jp-card.jp-card-maestro {
+.jp-card.jp-card-jcb {
     &.jp-card-identified {
         .jp-card-front, .jp-card-back {
-            .jp-card-logo.jp-card-maestro {
-                box-shadow: none;
-            }
             &:before {
                 background-color: $fill-color;
             }
         }
-        .jp-card-logo.jp-card-maestro {
+        .jp-card-logo.jp-card-jcb {
             opacity: 1;
+            box-shadow: none;
         }
     }
 }

@@ -11,13 +11,16 @@ $output-bourbon-deprecation-warnings: false !default;
 @import "cards/amex";
 @import "cards/discover";
 @import "cards/visa";
+@import "cards/visaelectron";
 @import "cards/mastercard";
 @import "cards/maestro";
 @import "cards/dankort";
 @import "cards/elo";
+@import "cards/jcb";
+@import "cards/dinersclub";
 
 .jp-card-invalid {
-    color: red !important; 
+    color: #FF3636 !important; 
 }
 
 .jp-card-container {
